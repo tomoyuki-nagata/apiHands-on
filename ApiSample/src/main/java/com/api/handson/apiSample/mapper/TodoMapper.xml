@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.api.handson.apiSample.mapper.TodoMapper">
+
+    <resultMap id="resultMap" type="com.api.handson.apiSample.dto.Todo">
+        <id column="id" property="id" />
+        <result column="title" property="title"/>
+        <result column="deadline" property="deadline"/>
+        <result column="note" property="note"/>
+        <result column="completed" property="isComplete"/>
+    </resultMap>
+
+
+    <select id="findAll" resultMap="resultMap">
+        select
+            *
+        from
+            todo as todo;
+    </select>
+</mapper>
