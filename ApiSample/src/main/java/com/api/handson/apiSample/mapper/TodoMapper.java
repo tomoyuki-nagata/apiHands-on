@@ -18,4 +18,7 @@ public interface TodoMapper {
             @Param("isComplete") Boolean isComplete);
 
     void completed(@Param("id") Integer id);
+
+    void deleteById(@Param("id") Integer id);
+
 }
