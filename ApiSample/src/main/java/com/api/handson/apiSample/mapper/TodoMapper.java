@@ -16,4 +16,6 @@ public interface TodoMapper {
             @Param("deadline") LocalDate deadline,
             @Param("note") String note,
             @Param("isComplete") Boolean isComplete);
+
+    void completed(@Param("id") Integer id);
 }

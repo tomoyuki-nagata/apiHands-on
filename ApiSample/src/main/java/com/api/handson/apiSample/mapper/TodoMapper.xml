@@ -25,4 +25,13 @@
 		values
 		  (#{title}, #{deadline}, #{note}, #{isComplete});
 	</insert>
+
+	<update id="completed">
+	   update
+	       public.todo
+	   set
+	       completed = true
+	   where
+	       id = #{id};
+	</update>
 </mapper>
