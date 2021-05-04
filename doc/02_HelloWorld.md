@@ -43,7 +43,8 @@ public class HelloWorldController {
 }
 
 ```
-
+### 用語解説
+- [GET](https://wa3.i-3-i.info/word1495.html)
 
 
 ## 2.パラメーターを用いて挨拶を返すAPIを作成する。
@@ -115,6 +116,6 @@ public class GreetingController {
 ```
 
 ### 用語解説
-[リクエストパラメーター](https://algorithm.joho.info/computer/get-request-parameter/)
-[Getter](https://qiita.com/takahirocook/items/27828bc8477735612021)
-[コンストラクタ](https://wa3.i-3-i.info/word13646.html)
+- [リクエストパラメーター](https://algorithm.joho.info/computer/get-request-parameter/)
+- [Getter](https://qiita.com/takahirocook/items/27828bc8477735612021)
+- [コンストラクタ](https://wa3.i-3-i.info/word13646.html)
